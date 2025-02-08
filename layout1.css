@@ -1,0 +1,96 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .logo{
+      text-align: center;
+      background-color: white;
+      padding: auto;
+  }
+  .logo img {
+      max-width: 200px; 
+      height: auto; 
+      display: inline-block; 
+  }
+  
+  /* Thanh menu */
+  .navbar {
+    background-color: #05393b;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .navbar a:hover {
+    color: black;
+  }
+
+  /* Banner */
+  .banner {
+    background-color:white;
+    text-align: center;
+    padding: auto;
+  }
+  .banner img {
+    width: 100%;
+    height: auto;
+
+  }
+  
+  /* Tiêu đề */
+  .section-title {
+    text-align: auto;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Danh sách game */
+  .car-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .car-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  .car-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .car-item p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #05393b;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-size: 16px;
+  }
+  .pro-price{
+    text-align: center;
+    color: red;
+  }
