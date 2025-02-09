@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
   }
+  /* logo wep */
   .logo{
       text-align: center;
       background-color: white;
@@ -14,7 +15,6 @@
       height: auto; 
       display: inline-block; 
   }
-  
   /* Thanh menu */
   .navbar {
     background-color: #05393b;
@@ -34,7 +34,7 @@
     font-weight: bold;
   }
   .navbar a:hover {
-    color: black;
+    color: rgb(59, 232, 108);
   }
 
   /* Banner */
@@ -51,19 +51,19 @@
   
   /* Tiêu đề */
   .section-title {
-    text-align: auto;
+    text-align: center;
     margin: 20px 0;
     font-size: 24px;
     font-weight: bold;
     color: #333;
   }
   
-  /* Danh sách game */
+  /* Danh sách xe*/
   .car-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    max-width: auto;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -81,6 +81,9 @@
     margin-top: 10px;
     font-weight: bold;
   }
+  .car-item:hover{
+    transform: scale(1.05);
+  }
   
   /* Footer */
   footer {
@@ -90,7 +93,29 @@
     color: white;
     font-size: 16px;
   }
+  /* giá */
   .pro-price{
     text-align: center;
     color: red;
+    padding: auto;
   }
+  /* nút mua hàng */
+  .buy-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.buy-button:hover {
+    background-color: #218838;
+}
+.buy-button img {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  text-align: left;
+  vertical-align: middle;
+}
